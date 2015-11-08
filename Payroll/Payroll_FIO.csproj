@@ -46,6 +46,7 @@
     <Compile Include="Affiliation.cs" />
     <Compile Include="BiWeeklySchedule.cs" />
     <Compile Include="CommissionedClassification.cs" />
+    <Compile Include="DeleteEmployeeTransaction.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="HoldMethod.cs" />
     <Compile Include="HourlyClassification.cs" />
