@@ -9,7 +9,7 @@ namespace Payroll_FIO
     {
         public override string ToString()
         {
-            return "monthly";
+            return "weekly";
         }
     }
 }

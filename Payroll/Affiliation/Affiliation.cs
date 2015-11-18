@@ -5,7 +5,8 @@ using System.Text;
 
 namespace Payroll_FIO
 {
-    public class PaymentClassification
+    public interface Affiliation
     {
+
     }
 }

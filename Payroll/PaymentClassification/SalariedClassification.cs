@@ -1,16 +1,22 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 namespace Payroll_FIO
 {
-    public class SalariedClassification :PaymentClassification
+    public class SalariedClassification : PaymentClassification
     {
         private readonly double salary;
+        private Hashtable salesReceipts = new Hashtable();
         public SalariedClassification(double salary)
         {
             this.salary = salary;
+        }
+        public SalesReceipt GetSalesReceipt(DateTime date)
+        {
+            return salesReceipts[date] as SalesReceipt;
         }
         public double Salary
         {

@@ -39,29 +39,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCommissionedEmployee.cs" />
-    <Compile Include="AddEmployeeTransaction.cs" />
-    <Compile Include="AddHourlyEmployee.cs" />
-    <Compile Include="AddSalariedEmployee.cs" />
-    <Compile Include="Affiliation.cs" />
-    <Compile Include="BiWeeklySchedule.cs" />
-    <Compile Include="CommissionedClassification.cs" />
-    <Compile Include="DeleteEmployeeTransaction.cs" />
+    <Compile Include="Affiliation\NoAffiliation.cs" />
+    <Compile Include="SalesReceipt.cs" />
+    <Compile Include="ServiceCharge.cs" />
+    <Compile Include="Transactions\AddCommissionedEmployee.cs" />
+    <Compile Include="Transactions\AddEmployeeTransaction.cs" />
+    <Compile Include="Transactions\AddHourlyEmployee.cs" />
+    <Compile Include="Transactions\AddSalariedEmployee.cs" />
+    <Compile Include="Affiliation\Affiliation.cs" />
+    <Compile Include="Schedule\BiWeeklySchedule.cs" />
+    <Compile Include="PaymentClassification\CommissionedClassification.cs" />
+    <Compile Include="Transactions\DeleteEmployeeTransaction.cs" />
     <Compile Include="Employee.cs" />
-    <Compile Include="HoldMethod.cs" />
-    <Compile Include="HourlyClassification.cs" />
-    <Compile Include="MonthlySchedule.cs" />
-    <Compile Include="PaymentClassification.cs" />
-    <Compile Include="PaymentMethod.cs" />
-    <Compile Include="PaymentSchedule.cs" />
+    <Compile Include="PaymentMethod\HoldMethod.cs" />
+    <Compile Include="PaymentClassification\HourlyClassification.cs" />
+    <Compile Include="Schedule\MonthlySchedule.cs" />
+    <Compile Include="PaymentClassification\PaymentClassification.cs" />
+    <Compile Include="PaymentMethod\PaymentMethod.cs" />
+    <Compile Include="Schedule\PaymentSchedule.cs" />
     <Compile Include="PayrollDatabase.cs" />
-    <Compile Include="SalariedClassification.cs" />
+    <Compile Include="PaymentClassification\SalariedClassification.cs" />
+    <Compile Include="Transactions\SalesReceiptTransaction.cs" />
+    <Compile Include="Transactions\ServiceChargeTransaction.cs" />
     <Compile Include="TimeCard.cs" />
-    <Compile Include="TimeCardTransaction.cs" />
-    <Compile Include="Transaction.cs" />
+    <Compile Include="Transactions\TimeCardTransaction.cs" />
+    <Compile Include="Transactions\Transaction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WeeklySchedule.cs" />
+    <Compile Include="Affiliation\UnionAffiliation.cs" />
+    <Compile Include="Schedule\WeeklySchedule.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
