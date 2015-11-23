@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Affiliation\NoAffiliation.cs" />
+    <Compile Include="PaymentMethod1\DirectMethod.cs" />
+    <Compile Include="PaymentMethod1\MailMethod.cs" />
     <Compile Include="SalesReceipt.cs" />
     <Compile Include="ServiceCharge.cs" />
     <Compile Include="Transactions\AddCommissionedEmployee.cs" />
@@ -49,13 +51,20 @@
     <Compile Include="Affiliation\Affiliation.cs" />
     <Compile Include="Schedule\BiWeeklySchedule.cs" />
     <Compile Include="PaymentClassification\CommissionedClassification.cs" />
+    <Compile Include="Transactions\ChangeAddressTransaction.cs" />
+    <Compile Include="Transactions\ChangeClassificationTransaction.cs" />
+    <Compile Include="Transactions\ChangeCommissionedTransaction.cs" />
+    <Compile Include="Transactions\ChangeEmployeeTransaction.cs" />
+    <Compile Include="Transactions\ChangeHourlyTransaction.cs" />
+    <Compile Include="Transactions\ChangeNameTransaction.cs" />
+    <Compile Include="Transactions\ChangeSalariedTransaction.cs" />
     <Compile Include="Transactions\DeleteEmployeeTransaction.cs" />
     <Compile Include="Employee.cs" />
-    <Compile Include="PaymentMethod\HoldMethod.cs" />
+    <Compile Include="PaymentMethod1\HoldMethod.cs" />
     <Compile Include="PaymentClassification\HourlyClassification.cs" />
     <Compile Include="Schedule\MonthlySchedule.cs" />
     <Compile Include="PaymentClassification\PaymentClassification.cs" />
-    <Compile Include="PaymentMethod\PaymentMethod.cs" />
+    <Compile Include="PaymentMethod1\PaymentMethod.cs" />
     <Compile Include="Schedule\PaymentSchedule.cs" />
     <Compile Include="PayrollDatabase.cs" />
     <Compile Include="PaymentClassification\SalariedClassification.cs" />
